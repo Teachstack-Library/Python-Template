@@ -1,0 +1,10 @@
+{
+  "modules": [{
+    "name": "Hello World",
+    "dir": "HelloWorld",
+    "exercises": [{
+      "name": "Hello World",
+      "dir": "HelloWorld"
+    }]
+  }]
+}
