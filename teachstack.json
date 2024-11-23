@@ -13,7 +13,7 @@
         {
           "name": "Hello World",
           "dir": "HelloWorld",
-          "initialFile": "main.py",
+          "initialFiles": ["main.py"],
           "tests": [
             {
               "test": "test_hello_world",
@@ -32,7 +32,7 @@
           "name": "Next steps",
           "dir": "Next steps",
           "run": "python main.py",
-          "initialFile": "main.py",
+          "initialFiles": ["main.py", "modules/greet.py"],
           "tests": [
             {
               "test": "test_greet",
