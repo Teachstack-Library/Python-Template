@@ -12,13 +12,13 @@
       "exercises": [
         {
           "name": "Hello World",
-          "dir": "HelloWorld",
+          "dir": "hello_world",
           "initialFiles": ["main.py"],
           "tests": [
             {
               "test": "test_hello_world",
-              "name": "Print Hello World",
-              "description": "Print the text hello world to the console"
+              "name": "Print 'Hello World!'",
+              "description": "Use the print() function to output 'Hello World!' to the console"
             }
           ],
           "scripts": [
@@ -29,15 +29,124 @@
           ]
         },
         {
-          "name": "Next steps",
-          "dir": "Next steps",
-          "run": "python main.py",
-          "initialFiles": ["main.py", "modules/greet.py"],
+          "name": "Comments",
+          "dir": "comments",
+          "initialFiles": ["main.py"],
           "tests": [
             {
-              "test": "test_greet",
-              "name": "Print Hello {name}",
-              "description": "Print Hello {name}, where name is the value passed into the greet function"
+              "test": "test_comment",
+              "name": "Comment out the print statement",
+              "description": "Use a comment to prevent the print() function from writing 'Hello World!' to the console"
+            }
+          ],
+          "scripts": [
+            {
+              "language": "python",
+              "script": "main.py"
+            }
+          ]
+        },
+        {
+          "name": "Variables",
+          "dir": "variables",
+          "initialFiles": ["main.py"],
+          "tests": [
+            {
+              "test": "test_variables",
+              "name": "Assign subjects to afternoon and evening classes",
+              "description": "Assign the lesson variable to represent different subjects for the afternoon and evening classes"
+            }
+          ],
+          "scripts": [
+            {
+              "language": "python",
+              "script": "main.py"
+            }
+          ]
+        },
+        {
+          "name": "Errors",
+          "dir": "errors",
+          "initialFiles": ["main.py"],
+          "tests": [
+            {
+              "test": "test_errors",
+              "name": "Debug the code and print the strings to console",
+              "description": "Fix the code to stop the NameError and SyntaxError from occuring"
+            }
+          ],
+          "scripts": [
+            {
+              "language": "python",
+              "script": "main.py"
+            }
+          ]
+        },
+        {
+          "name": "Numbers",
+          "dir": "numbers_1",
+          "initialFiles": ["main.py"],
+          "tests": [
+            {
+              "test": "test_integers",
+              "name": "Assign the correct integers to the variables",
+              "description": "Assign the current_year, hours_in_a_day and days_in_a_week variables with the appropriate integers."
+            },
+            {
+              "test": "test_floats",
+              "name": "Assign the correct floats to the variables",
+              "description": "Assign the pi_to_three_places and probability_of_heads_in_coin_flip variables with the correct floats"
+            },
+            {
+              "test": "test_print_year",
+              "name": "Print the current_year variable",
+              "description": "Use the print function to output the current year to the console"
+            }
+          ],
+          "scripts": [
+            {
+              "language": "python",
+              "script": "main.py"
+            }
+          ]
+        },
+        {
+          "name": "Calculations, Part 1",
+          "dir": "calculations_1",
+          "initialFiles": ["main.py"],
+          "tests": [
+            {
+              "test": "test_multiplication",
+              "name": "Calculate the number of hours in a week",
+              "description": "Calculate the number of hours in a week by multiplying together the hours_in_a_day and days_in_a_week variables."
+            },
+            {
+              "test": "test_division",
+              "name": "Calculate the diameter of a circle",
+              "description": "Calculate the diameter of the circle by dividing the circle_circumference variable by the pi_to_three_places variable."
+            }
+          ],
+          "scripts": [
+            {
+              "language": "python",
+              "script": "main.py"
+            }
+          ]
+        },
+        {
+          "name": "Calculations, Part 2",
+          "dir": "calculations_2",
+          "initialFiles": ["main.py"],
+          "tests": [
+            {
+              "test": "test_exponent",
+              "name": "Calculate the required number of tiles",
+              "description": "Calculate the number of tiles needed to fully tile the square room and assign it to the tiles_required variable"
+            },
+            {
+              "test": "test_modulo",
+              "name": "Calculate the number of leftover tiles",
+              "description": "Calculate how many tiles will be left over if you buy the minimum number of tile packs required for the room and assign it to the leftover_tiles variable"
             }
           ],
           "scripts": [
