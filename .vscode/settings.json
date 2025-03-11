@@ -1,7 +1,5 @@
 {
-  "python.testing.pytestArgs": [
-    "."
-  ],
+  "python.testing.pytestArgs": ["."],
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
   "scm.autoReveal": false,
@@ -17,10 +15,6 @@
   "explorer.excludeGitIgnore": false,
   "search.useIgnoreFiles": false,
   "explorer.fileNesting.enabled": true,
-  "python.analysis.include": [
-    "c:\\Users\\bavja\\repos\\demo-course-v2/modules/HelloWorld/comments/exercise"
-  ],
-  "python.analysis.exclude": [
-    "**/.pytest_cache"
-  ]
+  "python.analysis.exclude": ["**/.pytest_cache"]
 }
+

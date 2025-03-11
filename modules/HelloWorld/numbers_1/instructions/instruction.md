@@ -4,9 +4,9 @@ code, pre {
 }
 </style>
 
-## Numbers
+# Numbers
 
-### Learning
+## Learning
 Congratulations on debugging your first script. Now that you’ve tamed the errors, let’s dive into something a little more… *calculated*. We're going to look at how Python handles numbers. There are two data types we need to learn about: integers and floats.
 
 Integers, or an ```int```, are whole numbers. They are counting numbers (e.g. 1, 2, 3) and include zero (0) and their negative counterparts. They are how you measure the number of people in a room or the score in a sports game.
@@ -23,9 +23,4 @@ print(an_integer + a_float)   # Will print 15.5
 print(a_float - 3)            # Will print 7.5
 ```
 
-### Exercise
-You've been provided with an incomplete Python file containing the name of some common integers and floats. Let's fill them out with the appropriate values:
-
-- Assign the ```current_year```, ```hours_in_a_day``` and ```days_in_a_week``` variables with the correct integers
-
-- Assign the ```pi_to_three_places``` and ```probability_of_heads_in_coin_flip``` variables with the correct floats
+You've been provided with an incomplete Python file containing the name of some common integers and floats. Fill them out with the appropriate values and then use the print function to display the ```current_year``` variable in the Output window.
